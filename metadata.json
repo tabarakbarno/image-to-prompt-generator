@@ -1,0 +1,5 @@
+{
+  "name": "AI Image Prompt Generator",
+  "description": "Upload an image and get a high-quality, detailed prompt for AI image generation tools. This app analyzes your image and creates a descriptive prompt including subject, environment, lighting, and style.",
+  "requestFramePermissions": []
+}
