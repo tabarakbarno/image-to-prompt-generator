@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const IconCheck: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
@@ -14,6 +13,6 @@ export const IconCheck: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     strokeLinecap="round"
     strokeLinejoin="round"
   >
-    <polyline points="20 6 9 17 4 12" />
+    <path d="M20 6 9 17l-5-5" />
   </svg>
 );

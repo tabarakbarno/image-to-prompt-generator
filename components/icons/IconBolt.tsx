@@ -1,6 +1,7 @@
 import React from 'react';
 
-export const IconCopy: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+// This is the Lucide "Zap" icon.
+export const IconBolt: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
     {...props}
     xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +14,6 @@ export const IconCopy: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     strokeLinecap="round"
     strokeLinejoin="round"
   >
-    <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
-    <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
   </svg>
 );

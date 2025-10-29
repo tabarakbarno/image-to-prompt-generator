@@ -1,6 +1,7 @@
 import React from 'react';
 
-export const IconSparkles: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+// This is the Lucide "Sparkles" icon, which fits the "Surprise Me" button well.
+export const IconWand: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
     {...props}
     xmlns="http://www.w3.org/2000/svg"
